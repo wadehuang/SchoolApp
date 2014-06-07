@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E80F124193F4F67007DFAF0 /* SchoolUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80F123193F4F67007DFAF0 /* SchoolUtils.m */; };
+		2E80F12A193F50D8007DFAF0 /* SchoolButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80F129193F50D8007DFAF0 /* SchoolButton.m */; };
+		2E80F139193F6EA7007DFAF0 /* SchoolDashboardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80F138193F6EA7007DFAF0 /* SchoolDashboardTableViewController.m */; };
+		2E80F13B193F71AD007DFAF0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80F13A193F71AD007DFAF0 /* MapKit.framework */; };
+		2E80F13D193F71C3007DFAF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80F13C193F71C3007DFAF0 /* CoreLocation.framework */; };
+		2E80F140193F723B007DFAF0 /* SchoolMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80F13F193F723B007DFAF0 /* SchoolMapViewController.m */; };
+		2E80F143193F740A007DFAF0 /* SchoolMapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80F142193F740A007DFAF0 /* SchoolMapViewAnnotation.m */; };
+		2E80F14A193F8037007DFAF0 /* SchoolPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E80F149193F8037007DFAF0 /* SchoolPhotosTableViewController.m */; };
 		2E84F4D9193A35B3003492A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84F4D8193A35B3003492A9 /* Foundation.framework */; };
 		2E84F4DB193A35B3003492A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84F4DA193A35B3003492A9 /* CoreGraphics.framework */; };
 		2E84F4DD193A35B3003492A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84F4DC193A35B3003492A9 /* UIKit.framework */; };
@@ -28,8 +36,6 @@
 		2E958F7E193B502A004293D4 /* event.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E958F7D193B502A004293D4 /* event.png */; };
 		2E958F80193B5103004293D4 /* Academic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E958F7F193B5103004293D4 /* Academic.png */; };
 		2E958F82193B52C2004293D4 /* sharing.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E958F81193B52C2004293D4 /* sharing.png */; };
-		2E958F84193B554A004293D4 /* home_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E958F83193B554A004293D4 /* home_bg.jpg */; };
-		2E958F86193B591E004293D4 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E958F85193B591E004293D4 /* home.jpg */; };
 		2E958F88193B59D9004293D4 /* ukm_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E958F87193B59D9004293D4 /* ukm_logo.png */; };
 		2E958F8A193B5A65004293D4 /* logo_fsk.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E958F89193B5A64004293D4 /* logo_fsk.png */; };
 /* End PBXBuildFile section */
@@ -45,6 +51,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E80F122193F4F67007DFAF0 /* SchoolUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolUtils.h; sourceTree = "<group>"; };
+		2E80F123193F4F67007DFAF0 /* SchoolUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolUtils.m; sourceTree = "<group>"; };
+		2E80F128193F50D8007DFAF0 /* SchoolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolButton.h; sourceTree = "<group>"; };
+		2E80F129193F50D8007DFAF0 /* SchoolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolButton.m; sourceTree = "<group>"; };
+		2E80F137193F6EA7007DFAF0 /* SchoolDashboardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolDashboardTableViewController.h; sourceTree = "<group>"; };
+		2E80F138193F6EA7007DFAF0 /* SchoolDashboardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolDashboardTableViewController.m; sourceTree = "<group>"; };
+		2E80F13A193F71AD007DFAF0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2E80F13C193F71C3007DFAF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2E80F13E193F723B007DFAF0 /* SchoolMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolMapViewController.h; sourceTree = "<group>"; };
+		2E80F13F193F723B007DFAF0 /* SchoolMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolMapViewController.m; sourceTree = "<group>"; };
+		2E80F141193F740A007DFAF0 /* SchoolMapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolMapViewAnnotation.h; sourceTree = "<group>"; };
+		2E80F142193F740A007DFAF0 /* SchoolMapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolMapViewAnnotation.m; sourceTree = "<group>"; };
+		2E80F148193F8037007DFAF0 /* SchoolPhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolPhotosTableViewController.h; sourceTree = "<group>"; };
+		2E80F149193F8037007DFAF0 /* SchoolPhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolPhotosTableViewController.m; sourceTree = "<group>"; };
 		2E84F4D5193A35B3003492A9 /* School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E84F4D8193A35B3003492A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E84F4DA193A35B3003492A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,8 +91,6 @@
 		2E958F7D193B502A004293D4 /* event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event.png; sourceTree = "<group>"; };
 		2E958F7F193B5103004293D4 /* Academic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Academic.png; sourceTree = "<group>"; };
 		2E958F81193B52C2004293D4 /* sharing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharing.png; sourceTree = "<group>"; };
-		2E958F83193B554A004293D4 /* home_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_bg.jpg; sourceTree = "<group>"; };
-		2E958F85193B591E004293D4 /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
 		2E958F87193B59D9004293D4 /* ukm_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ukm_logo.png; sourceTree = "<group>"; };
 		2E958F89193B5A64004293D4 /* logo_fsk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_fsk.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E80F13D193F71C3007DFAF0 /* CoreLocation.framework in Frameworks */,
+				2E80F13B193F71AD007DFAF0 /* MapKit.framework in Frameworks */,
 				2E84F4DB193A35B3003492A9 /* CoreGraphics.framework in Frameworks */,
 				2E84F4DD193A35B3003492A9 /* UIKit.framework in Frameworks */,
 				2E84F4D9193A35B3003492A9 /* Foundation.framework in Frameworks */,
@@ -101,6 +121,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E80F125193F4FB7007DFAF0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E958F81193B52C2004293D4 /* sharing.png */,
+				2E958F7F193B5103004293D4 /* Academic.png */,
+				2E958F7D193B502A004293D4 /* event.png */,
+				2E958F7B193B4DC2004293D4 /* Directory.png */,
+				2E958F79193B4C5E004293D4 /* news.png */,
+				2E958F77193B37A2004293D4 /* location.png */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		2E80F126193F4FD8007DFAF0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2E958F89193B5A64004293D4 /* logo_fsk.png */,
+				2E958F87193B59D9004293D4 /* ukm_logo.png */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2E80F127193F5083007DFAF0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				2E80F128193F50D8007DFAF0 /* SchoolButton.h */,
+				2E80F129193F50D8007DFAF0 /* SchoolButton.m */,
+				2E80F141193F740A007DFAF0 /* SchoolMapViewAnnotation.h */,
+				2E80F142193F740A007DFAF0 /* SchoolMapViewAnnotation.m */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
 		2E84F4CC193A35B3003492A9 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +176,8 @@
 		2E84F4D7193A35B3003492A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E80F13C193F71C3007DFAF0 /* CoreLocation.framework */,
+				2E80F13A193F71AD007DFAF0 /* MapKit.framework */,
 				2E84F4D8193A35B3003492A9 /* Foundation.framework */,
 				2E84F4DA193A35B3003492A9 /* CoreGraphics.framework */,
 				2E84F4DC193A35B3003492A9 /* UIKit.framework */,
@@ -134,11 +189,12 @@
 		2E84F4DE193A35B3003492A9 /* School */ = {
 			isa = PBXGroup;
 			children = (
+				2E958F6F193B21F9004293D4 /* AppDelegate */,
+				2E958F71193B2215004293D4 /* Board */,
+				2E958F73193B222A004293D4 /* Controller */,
+				2E80F127193F5083007DFAF0 /* Component */,
 				2E958F76193B2246004293D4 /* Common */,
 				2E958F74193B2237004293D4 /* Static */,
-				2E958F73193B222A004293D4 /* Controller */,
-				2E958F71193B2215004293D4 /* Board */,
-				2E958F6F193B21F9004293D4 /* AppDelegate */,
 				2E84F4F3193A35B3003492A9 /* Images.xcassets */,
 				2E84F4DF193A35B3003492A9 /* Supporting Files */,
 			);
@@ -213,6 +269,12 @@
 			children = (
 				2E84F4F0193A35B3003492A9 /* SchoolViewController.h */,
 				2E84F4F1193A35B3003492A9 /* SchoolViewController.m */,
+				2E80F137193F6EA7007DFAF0 /* SchoolDashboardTableViewController.h */,
+				2E80F138193F6EA7007DFAF0 /* SchoolDashboardTableViewController.m */,
+				2E80F13E193F723B007DFAF0 /* SchoolMapViewController.h */,
+				2E80F13F193F723B007DFAF0 /* SchoolMapViewController.m */,
+				2E80F148193F8037007DFAF0 /* SchoolPhotosTableViewController.h */,
+				2E80F149193F8037007DFAF0 /* SchoolPhotosTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -228,16 +290,8 @@
 		2E958F75193B223C004293D4 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				2E958F89193B5A64004293D4 /* logo_fsk.png */,
-				2E958F87193B59D9004293D4 /* ukm_logo.png */,
-				2E958F85193B591E004293D4 /* home.jpg */,
-				2E958F83193B554A004293D4 /* home_bg.jpg */,
-				2E958F81193B52C2004293D4 /* sharing.png */,
-				2E958F7F193B5103004293D4 /* Academic.png */,
-				2E958F7D193B502A004293D4 /* event.png */,
-				2E958F7B193B4DC2004293D4 /* Directory.png */,
-				2E958F79193B4C5E004293D4 /* news.png */,
-				2E958F77193B37A2004293D4 /* location.png */,
+				2E80F126193F4FD8007DFAF0 /* Common */,
+				2E80F125193F4FB7007DFAF0 /* Home */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -245,6 +299,8 @@
 		2E958F76193B2246004293D4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2E80F122193F4F67007DFAF0 /* SchoolUtils.h */,
+				2E80F123193F4F67007DFAF0 /* SchoolUtils.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -331,9 +387,7 @@
 				2E84F4EF193A35B3003492A9 /* Main_iPad.storyboard in Resources */,
 				2E84F4F4193A35B3003492A9 /* Images.xcassets in Resources */,
 				2E958F7A193B4C5E004293D4 /* news.png in Resources */,
-				2E958F86193B591E004293D4 /* home.jpg in Resources */,
 				2E958F7C193B4DC2004293D4 /* Directory.png in Resources */,
-				2E958F84193B554A004293D4 /* home_bg.jpg in Resources */,
 				2E958F80193B5103004293D4 /* Academic.png in Resources */,
 				2E958F78193B37A2004293D4 /* location.png in Resources */,
 				2E84F4EC193A35B3003492A9 /* Main_iPhone.storyboard in Resources */,
@@ -358,9 +412,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E80F143193F740A007DFAF0 /* SchoolMapViewAnnotation.m in Sources */,
+				2E80F139193F6EA7007DFAF0 /* SchoolDashboardTableViewController.m in Sources */,
+				2E80F140193F723B007DFAF0 /* SchoolMapViewController.m in Sources */,
 				2E84F4F2193A35B3003492A9 /* SchoolViewController.m in Sources */,
+				2E80F14A193F8037007DFAF0 /* SchoolPhotosTableViewController.m in Sources */,
+				2E80F124193F4F67007DFAF0 /* SchoolUtils.m in Sources */,
 				2E84F4E9193A35B3003492A9 /* SchoolAppDelegate.m in Sources */,
 				2E84F4E5193A35B3003492A9 /* main.m in Sources */,
+				2E80F12A193F50D8007DFAF0 /* SchoolButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
